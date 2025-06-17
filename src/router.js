@@ -1,7 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import Home from './views/Home.vue';
 // import Post from './views/Post.vue';
-
+import About from './views/About.vue';
+import Contact from './views/Contact.vue';
 import { defineAsyncComponent } from 'vue';
 
 const Post = defineAsyncComponent({
@@ -15,6 +16,8 @@ const Post = defineAsyncComponent({
 const routes = [
   { path: '/', name: 'Home', component: Home }, // rota raiz
   { path: '/post/:slug', name: 'Post', component: Post },
+  { path: '/about', name: 'About Us', component: About},
+  { path: '/contact', name: 'Contact', component: Contact}
 ];
 
 export const router = createRouter({

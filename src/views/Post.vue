@@ -13,5 +13,5 @@ import { useRoute } from 'vue-router';
 import { posts } from '../data/posts';
 
 const route = useRoute();
-const post = posts.find((p) => p.slug === route.params.slug);
+const post = posts.data.find((p) => p.slug === route.params.slug);
 </script>

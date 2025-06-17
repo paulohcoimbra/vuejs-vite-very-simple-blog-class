@@ -1,14 +1,10 @@
-body {
-  background-color: rgb(184, 177, 177);
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-}
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import "tailwindcss";
 
-.container {
-  background-color: #fff;
-  border-radius: 10px;
-  margin: 20px;
-  margin-inline: auto;
-  max-width: 400px;
-  padding: 20px;
+body {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background: linear-gradient(135deg, #dbdbdb 0%, #ffffff 100%);
 }
