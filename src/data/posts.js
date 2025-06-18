@@ -6,7 +6,7 @@ export const posts =
       slug: 'javascript-basico',
       title: 'Fundamentos do JavaScript',
       description: 'Descubra os conceitos essenciais para começar com JavaScript.',
-      content: 'Conteúdo completo do post sobre fundamentos do JavaScript...',
+      content: 'JavaScript é uma linguagem de programação essencial para desenvolvimento web. Com ela, é possível manipular elementos da página, responder a eventos do usuário e criar aplicações dinâmicas. Os fundamentos incluem variáveis, tipos de dados, funções, estruturas de controle (if, for, while) e manipulação do DOM.',
       img: `../assets/Blog post ${Math.floor(Math.random() * 6) + 1}.svg`,
     },
     {
@@ -14,7 +14,7 @@ export const posts =
       slug: 'react-hooks',
       title: 'Introdução aos React Hooks',
       description: 'Aprenda como usar hooks para gerenciar estado e efeitos em React.',
-      content: 'Conteúdo completo do post sobre React Hooks...',
+      content: 'React Hooks são funções que permitem usar o estado e outros recursos do React em componentes funcionais. Os principais hooks são useState, para gerenciar estados locais, e useEffect, para lidar com efeitos colaterais como requisições de dados. Eles tornam o código mais limpo e reutilizável.',
       img: `../assets/Blog post ${Math.floor(Math.random() * 6) + 1}.svg`,
     },
     {
@@ -22,7 +22,7 @@ export const posts =
       slug: 'node-express-api',
       title: 'Criando APIs com Node.js e Express',
       description: 'Veja como construir uma API RESTful usando Node.js e Express.',
-      content: 'Conteúdo completo do post sobre Node.js e Express...',
+      content: 'Node.js permite rodar JavaScript no servidor, e o Express é um framework minimalista para criar APIs. Com eles, você pode definir rotas, receber requisições HTTP, manipular dados e enviar respostas em formato JSON, facilitando a comunicação entre front-end e back-end.',
       img: `../assets/Blog post ${Math.floor(Math.random() * 6) + 1}.svg`,
     },
     {
@@ -30,7 +30,7 @@ export const posts =
       slug: 'css-grid-flexbox',
       title: 'CSS Grid vs Flexbox',
       description: 'Compare as duas principais técnicas de layout em CSS.',
-      content: 'Conteúdo completo do post sobre CSS Grid e Flexbox...',
+      content: 'CSS Grid e Flexbox são ferramentas modernas para criar layouts responsivos. Flexbox é ideal para layouts em uma dimensão (linha ou coluna), enquanto Grid permite criar grades bidimensionais. Ambos facilitam o alinhamento e distribuição de elementos na página.',
       img: `../assets/Blog post ${Math.floor(Math.random() * 6) + 1}.svg`,
     },
     {
@@ -38,7 +38,7 @@ export const posts =
       slug: 'typescript-intro',
       title: 'Começando com TypeScript',
       description: 'Entenda os benefícios de usar TypeScript em seus projetos.',
-      content: 'Conteúdo completo do post sobre TypeScript...',
+      content: 'TypeScript é um superset do JavaScript que adiciona tipagem estática ao código. Isso ajuda a evitar erros comuns, melhora a legibilidade e facilita a manutenção de projetos grandes. Com TypeScript, é possível detectar problemas antes mesmo de executar o código.',
       img: `../assets/Blog post ${Math.floor(Math.random() * 6) + 1}.svg`,
     },
     {
@@ -46,7 +46,7 @@ export const posts =
       slug: 'testes-unitarios-jest',
       title: 'Testes Unitários com Jest',
       description: 'Aprenda a escrever testes unitários eficientes usando Jest.',
-      content: 'Conteúdo completo do post sobre testes com Jest...',
+      content: 'Jest é um framework de testes para JavaScript, muito utilizado em projetos React. Ele permite criar testes automatizados para funções e componentes, garantindo que o código funcione como esperado e facilitando a identificação de bugs durante o desenvolvimento.',
       img: `../assets/Blog post ${Math.floor(Math.random() * 6) + 1}.svg`,
     },
     {
@@ -54,7 +54,7 @@ export const posts =
       slug: 'git-fluxo-trabalho',
       title: 'Fluxo de Trabalho com Git',
       description: 'Saiba como organizar seu fluxo de trabalho usando Git e GitHub.',
-      content: 'Conteúdo completo do post sobre Git e GitHub...',
+      content: 'Git é um sistema de controle de versão que permite registrar o histórico de alterações no código. Com ele, é possível trabalhar em equipe, criar branches para novas funcionalidades e integrar mudanças usando pull requests no GitHub, tornando o desenvolvimento mais organizado.',
       img: `../assets/Blog post ${Math.floor(Math.random() * 6) + 1}.svg`,
     },
     {
@@ -62,7 +62,7 @@ export const posts =
       slug: 'responsive-design',
       title: 'Design Responsivo na Prática',
       description: 'Dicas para criar interfaces que funcionam em qualquer dispositivo.',
-      content: 'Conteúdo completo do post sobre design responsivo...',
+      content: 'Design responsivo consiste em criar layouts que se adaptam a diferentes tamanhos de tela, como celulares, tablets e desktops. Utilizando media queries, unidades flexíveis e técnicas como Flexbox e Grid, é possível garantir uma boa experiência para todos os usuários.',
       img: `../assets/Blog post ${Math.floor(Math.random() * 6) + 1}.svg`,
     },
     {
@@ -70,7 +70,7 @@ export const posts =
       slug: 'firebase-autenticacao',
       title: 'Autenticação com Firebase',
       description: 'Implemente autenticação de usuários facilmente usando Firebase.',
-      content: 'Conteúdo completo do post sobre autenticação com Firebase...',
+      content: 'O Firebase Authentication oferece métodos prontos para autenticar usuários usando e-mail, redes sociais ou provedores externos. Ele simplifica o processo de login, registro e gerenciamento de sessões, além de integrar facilmente com outros serviços do Firebase.',
       img: `../assets/Blog post ${Math.floor(Math.random() * 6) + 1}.svg`,
     },
     {
@@ -78,7 +78,7 @@ export const posts =
       slug: 'deploy-vercel',
       title: 'Publicando Projetos no Vercel',
       description: 'Veja como fazer deploy de aplicações modernas usando Vercel.',
-      content: 'Conteúdo completo do post sobre deploy no Vercel...',
+      content: 'Vercel é uma plataforma de deploy focada em aplicações front-end modernas. Com integração ao GitHub, permite publicar projetos automaticamente a cada push, além de oferecer preview de branches e configuração simples para frameworks como Next.js e React.',
       img: `../assets/Blog post ${Math.floor(Math.random() * 6) + 1}.svg`,
     },
   ]

@@ -1,7 +1,7 @@
 <template>
-    <div class="max-w-2xl mx-auto py-12 px-4">
-        <h1 class="text-3xl font-bold mb-6 text-center">Contato</h1>
-        <form class="bg-gradient-to-br from-[#adcbf8a6] to-[#daaf7769] shadow-md rounded px-8 pt-6 pb-8 mb-4">
+    <div class="bg-gradient-to-br from-[#adcbf8a6] to-[#daaf7769] m-0 p-8">
+        <form class="max-w-2xl mx-auto bg-white rounded-xl shadow-lg p-8 gap-4">
+            <h1 class="text-3xl font-bold mb-6 text-center">Contato</h1>
             <div class="mb-4">
                 <label class="block text-gray-700 text-sm font-bold mb-2" for="name">
                     Nome

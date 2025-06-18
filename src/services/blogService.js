@@ -7,9 +7,13 @@ const apiClient = axios.create({
   headers: {
     'Content-Type': 'application/json'
   },
-  timeout: 5000
+  timeout: 30000
 })
 
 export async function getAllBlogPosts() {
   return apiClient.get('/blog')
+}
+
+export async function getBlogPost(id) {
+  return apiClient.get(`/blog/${id}`)
 }

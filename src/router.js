@@ -14,7 +14,7 @@ const Post = defineAsyncComponent({
 });
 
 const routes = [
-  { path: '/', name: 'Home', component: Home }, // rota raiz
+  { path: '/', name: 'Home', component: Home}, // rota raiz
   { path: '/post/:slug', name: 'Post', component: Post },
   { path: '/about', name: 'About Us', component: About},
   { path: '/contact', name: 'Contact', component: Contact}

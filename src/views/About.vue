@@ -1,8 +1,7 @@
 <template>
-    <div class="max-w-2xl mx-auto py-12 px-4">
-
-        <h1 class="text-3xl font-bold mb-6 text-center">About Us</h1>
-        <div class="max-w-2xl mx-auto my-8 p-8 bg-gradient-to-br from-[#adcbf8a6] to-[#daaf7769] rounded-lg shadow">
+    <div class="bg-gradient-to-br from-[#adcbf8a6] to-[#daaf7769] m-0 p-8">
+        <div class="max-w-2xl mx-auto bg-white rounded-xl shadow-lg p-8 flex flex-col items-center gap-4">
+            <h1 class="text-3xl font-bold mb-6 text-center">About Us</h1>
             <p class="mb-4 text-gray-700">
                 Welcome to our simple blog! We are passionate about sharing knowledge, ideas, and stories with the world.
             </p>

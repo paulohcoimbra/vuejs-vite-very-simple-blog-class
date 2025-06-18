@@ -32,11 +32,29 @@
     </router-link>
   </nav>
   <div>
-    <router-view />
+    <router-view/>
   </div>
 </template>
 
 <script setup>
+import { ref, onMounted, provide} from 'vue'
+import { getAllBlogPosts } from './services/blogService';
+import { posts } from './data/posts'
+
 const pageTitle = 'Oitão Junior Blog'
 const pageDescription = "Bem-vindo ao nosso blog! Compartilhando ideias, aprendizados e inspiração para o seu dia a dia."
+const postsResponse = ref([])
+
+provide('posts', postsResponse)
+
+onMounted(async () => {
+  try {
+    const response = await getAllBlogPosts()
+    postsResponse.value = response.data.data
+  } catch (error) {
+    console.error('Erro ao carregar os posts: ', error)
+    console.warn('Falha ao obter os posts da API, Carregando posts locais...')
+    postsResponse.value = posts.data
+  }
+})
 </script>
